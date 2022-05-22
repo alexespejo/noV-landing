@@ -1,16 +1,17 @@
-html,
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+@import "./styles.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Varela Round", sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+#bg-image {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../public/bg-night-sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }

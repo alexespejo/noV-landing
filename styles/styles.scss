@@ -1,0 +1,12 @@
+@import "./scss/layout";
+
+body {
+  color: $paragraph;
+}
+.heading {
+  color: $header;
+}
+.btn {
+  background: $highlight;
+  border-radius: 50px;
+}
