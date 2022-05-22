@@ -26,7 +26,7 @@ body {
 #bg-image {
   width: 100vw;
   height: 100vh;
-  background-image: url("https://products.ls.graphics/mesh-gradients/images/78.-Night-sky.jpg");
+  background-image: url("./bg-night-sky.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
