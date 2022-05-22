@@ -7,11 +7,3 @@
 body {
   font-family: "Varela Round", sans-serif;
 }
-
-#bg-image {
-  width: 100vw;
-  height: 100vh;
-  background-image: url("../bg-night-sky.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}

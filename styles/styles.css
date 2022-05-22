@@ -22,4 +22,12 @@ body {
   background: #6246ea;
   border-radius: 50px;
 }
+
+#bg-image {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://products.ls.graphics/mesh-gradients/images/78.-Night-sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /*# sourceMappingURL=styles.css.map */
