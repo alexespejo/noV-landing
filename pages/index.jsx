@@ -38,10 +38,10 @@ export default function Home() {
       <div className="flex flex-col items-center justify-start lg:w-1/3  lg:px-3 ">
         <div className="flex flex-col items-center lg:flex-row animate__animated animate__fadeIn animate__slower">
           <AiOutlineHeart className=" my-3 lg:hidden text-9xl" />
-          <h1 className=" text-5xl my-5 lg:text-6xl xl:text-8xl font-bold header-c">
+          <h1 className=" text-5xl my-5 lg:text-6xl xl:text-7xl font-bold header-c">
             Noveil
           </h1>
-          <AiOutlineHeart className="my-3 hidden lg:block lg:text-8xl mx-5 text-9xl" />
+          <AiOutlineHeart className="my-3 hidden lg:block lg:text-7xl mx-5 text-9xl" />
         </div>
 
         <p className="xl:text-2xl lg:text-lg text-md text-center lg:py-5 paragraph-c">
