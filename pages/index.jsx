@@ -53,7 +53,7 @@ export default function Home() {
             href="https://www.instagram.com/noveil_app/?hl=en"
             className="mt-10 text-xl flex"
           >
-            <AiOutlineInstagram className="text-2xl my-0.5 mx-1" /> Instagram
+            <AiOutlineInstagram className="text-2xl mt-auto mx-1" /> Instagram
           </a>
         </div>
       </div>
