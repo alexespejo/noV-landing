@@ -38,10 +38,10 @@ export default function Home() {
       <div className="flex flex-col items-center justify-start lg:w-1/3  lg:px-3 ">
         <div className="flex flex-col items-center lg:flex-row animate__animated animate__fadeIn animate__slower">
           <AiOutlineHeart className=" my-3 lg:hidden text-9xl" />
-          <h1 className=" text-5xl my-5 lg:text-6xl xl:text-7xl font-bold header-c">
+          <h1 className=" text-5xl mt-3 lg:text-6xl xl:text-7xl font-bold header-c">
             Noveil
           </h1>
-          <AiOutlineHeart className="my-3 hidden lg:block lg:text-7xl mx-5 text-9xl" />
+          <AiOutlineHeart className="mt-3 hidden lg:block lg:text-7xl mx-5 text-9xl" />
         </div>
 
         <p className="xl:text-2xl lg:text-lg text-md text-center lg:py-5 paragraph-c">
@@ -59,7 +59,7 @@ export default function Home() {
       </div>
       <div className="lg:w-2/3  lg:px-20 xl:px-32 animate__animated animate__fadeIn animate__slow ">
         <div className="xl:px-20 lg:px-10">
-          <p className="text-center p-10 px-10 text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl 2xl:px-20 lg:bg-white/70 lg:rounded-3xl font-bold">
+          <p className="text-center py-5 px-10 text-lg sm:py-10 sm:px-20 sm:text-xl lg:text-2xl xl:text-3xl 2xl:text-3xl 2xl:px-20 lg:bg-white/70 lg:rounded-3xl font-bold">
             Introducing <span className="purple-c">Noveil</span>, the premier
             dating experience. This app was developed by UCI students for UCI
             students and is the best way to meet new people in your area.
@@ -80,7 +80,7 @@ export default function Home() {
           })}
         </div>
       </div>
-      <div className="lg:hidden flex flex-col items-center flex-wrap ">
+      <div className="lg:hidden flex flex-col items-center  ">
         <Button>Explore</Button>
         <a
           href="https://www.instagram.com/noveil_app/?hl=en"
